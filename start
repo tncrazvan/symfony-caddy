@@ -1,0 +1,5 @@
+sudo SERVER_NAME=:80 \
+APP_SECRET=ChangeMe \
+MERCURE_PUBLISHER_JWT_KEY=ChangeMe \
+MERCURE_SUBSCRIBER_JWT_KEY=ChangeMe \
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml up $@
